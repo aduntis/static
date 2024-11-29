@@ -3,6 +3,17 @@
 
 Images optimized with svgo and pngquant.
 
-1x1 transparent base64 pixel:
+svgo usage:
 ```
-iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=```
+svgo input.svg -o output.svg
+```
+
+pngquant usage:
+```
+pngquant --output output.png -- input.png
+```
+
+1x1 transparent PNG BASE64 pixel:
+```
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=
+```
